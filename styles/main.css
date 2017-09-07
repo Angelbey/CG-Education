@@ -1,0 +1,91 @@
+body {
+  background-color: linear-gradient(to right, #989898, #4c516d);
+  color: #eeeeee
+  margin: 0;
+  padding: 0;
+}
+
+
+.teacher {
+    display: flex;
+    align-items: flex-start;
+    background: #DCC7AA;
+    padding: 1em;
+    border-radius: 3px;
+    max-width: 24em;
+  }
+  .teacher-photo {
+    margin-right: 1em;
+    font-size: 60px;
+
+  }
+  .teacher-body {
+    flex: 1;
+  }
+  .teacher-heading {
+    margin: 0 0 .5em;
+  }
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+h1 {
+    font-family: 'Dense', sans-serif;
+    font-weight: 300;
+    line-height: 46px;
+    font-size: 60px;
+    margin: 0 0 23px 0;
+    color: #F7882F;
+    }
+h2 {
+    font-family: 'Lato', cursive;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 23px;
+    margin: 0;
+    color: #6B7A8F;
+    }
+  h3 {
+    font-family: 'Dense', sans-serif;
+  }
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+    margin: 15px 0 23px 0;
+    }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #F7C331;
+}
+li {
+float: left;
+}
+li h2 {
+  display: block;
+  color: #4c516d;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  border-bottom: 1px solid #030303;
+}
+li a {
+    display: block;
+    color: #030303;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Dense', sans-serif;
+}
+li a:hover {
+    background-color: #6B7A8F;
+}
+
+section {
+  margin: 15px;
+}
