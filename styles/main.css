@@ -1,30 +1,41 @@
 body {
-  background-color: linear-gradient(to right, #989898, #4c516d);
+  background-color: white;
   color: #eeeeee
   margin: 0;
   padding: 0;
 }
+.teacher-box {
+ padding: 0;
+  margin: 0;
+  list-style: none;
 
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+  background-color: #6B7A8F;
+}
 
 .teacher {
-    display: flex;
-    align-items: flex-start;
-    background: #DCC7AA;
-    padding: 1em;
-    border-radius: 3px;
-    max-width: 24em;
-  }
-  .teacher-photo {
-    margin-right: 1em;
-    font-size: 60px;
+  background-color: #DCC7AA;
+  padding: 5px;
+  width: 400px;
+  height: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 25px;
 
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
   }
-  .teacher-body {
-    flex: 1;
-  }
-  .teacher-heading {
-    margin: 0 0 .5em;
-  }
+
 .header {
   display: flex;
   justify-content: center;
