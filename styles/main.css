@@ -6,18 +6,12 @@ body {
 }
 .teacher-box {
  padding: 0;
-  margin: 0;
-  list-style: none;
-
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-
-  -webkit-flex-flow: row wrap;
-  justify-content: space-around;
-  background-color: #6B7A8F;
+ margin-top: 0;
+list-style: none;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+background-color: #6B7A8F;
 }
 
 .teacher {
@@ -36,6 +30,18 @@ body {
   text-align: center;
   }
 
+  .teacher-top {
+    width: 400px;
+    height: 100px;
+    margin: 0;
+    font-size: 40px;
+    border-style: none;
+    border-bottom: thick dotted #000;
+    padding-top: 4px;
+
+
+  }
+
 .header {
   display: flex;
   justify-content: center;
@@ -52,10 +58,10 @@ h1 {
     }
 h2 {
     font-family: 'Lato', cursive;
-    font-weight: normal;
-    font-size: 25px;
-    line-height: 23px;
-    margin: 0;
+    font-weight: bold;
+    font-size: 50px;
+    line-height:  50px;
+    margin: 4px;
     color: #6B7A8F;
     }
   h3 {
@@ -73,9 +79,10 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #F7C331;
+  border-radius: 25px;
 }
 li {
-float: left;
+float: right;
 }
 li h2 {
   display: block;
