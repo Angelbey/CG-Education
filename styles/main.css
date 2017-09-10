@@ -12,19 +12,18 @@ display: flex;
 flex-wrap: wrap;
 justify-content: space-around;
 background-color: #6B7A8F;
+border-radius: 25px;
 }
 
 .teacher {
   background-color: #DCC7AA;
   padding: 5px;
   width: 400px;
-  height: 200px;
+  height: 260px;
   margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 25px;
 
-  line-height: 150px;
-  color: white;
   font-weight: bold;
   font-size: 3em;
   text-align: center;
@@ -32,15 +31,25 @@ background-color: #6B7A8F;
 
   .teacher-top {
     width: 400px;
-    height: 100px;
+    height: 130px;
     margin: 0;
     font-size: 40px;
     border-style: none;
     border-bottom: thick dotted #000;
     padding-top: 4px;
-
-
   }
+  .teacher-top h3 {
+    text-align: center;
+    margin-top: 0;
+  }
+  .teacher-bottom1 {
+width: 400px;
+display: flex;
+width: 50%;
+height: auto;
+border-right: thick dotted #000;
+justify-content: center;
+}
 
 .header {
   display: flex;
@@ -59,13 +68,14 @@ h1 {
 h2 {
     font-family: 'Lato', cursive;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 40px;
     line-height:  50px;
     margin: 4px;
     color: #6B7A8F;
     }
   h3 {
     font-family: 'Dense', sans-serif;
+    font-size: 50px;
   }
 p {
     font-family: 'Lato', sans-serif;
