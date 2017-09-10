@@ -42,15 +42,29 @@ border-radius: 25px;
     text-align: center;
     margin-top: 0;
   }
+  .teacher-top h2 {
+    font-size: 40px;
+    line-height:  50px;
+    margin: 4px;
+    color: #6B7A8F;
+  }
   .teacher-bottom1 {
 width: 400px;
 display: flex;
 width: 50%;
-height: auto;
 border-right: thick dotted #000;
-justify-content: center;
+align-items: center;
 }
-
+.teacher-bottom1 p {
+  font-weight: bold;
+}
+.teacher-bottom1 h2 {
+  font-size: 30px;
+  height: 90px;
+  padding: 0;
+  margin-top: 0;
+}
+}
 .header {
   display: flex;
   justify-content: center;
@@ -68,10 +82,6 @@ h1 {
 h2 {
     font-family: 'Lato', cursive;
     font-weight: bold;
-    font-size: 40px;
-    line-height:  50px;
-    margin: 4px;
-    color: #6B7A8F;
     }
   h3 {
     font-family: 'Dense', sans-serif;
@@ -79,9 +89,8 @@ h2 {
   }
 p {
     font-family: 'Lato', sans-serif;
-    font-size: 16px;
-    line-height: 23px;
-    margin: 15px 0 23px 0;
+    font-size: 30px;
+
     }
 ul {
   list-style-type: none;
