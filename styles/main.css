@@ -5,7 +5,7 @@ body {
   padding: 0;
 }
 .teacher-box {
- padding: 0;
+ padding: 10px;
  margin-top: 0;
 list-style: none;
 display: flex;
@@ -23,7 +23,6 @@ border-radius: 25px;
   margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 25px;
-
   font-weight: bold;
   font-size: 3em;
   text-align: center;
@@ -77,6 +76,49 @@ color: #6B7A8F;
   padding-left: 260px;
   font-size: 30px;
   margin-top: -20px;
+}
+.student-box {
+ padding: 10px;
+ margin-top: 20px;
+list-style: none;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+background-color: #6B7A8F;
+border-radius: 25px;
+}
+.student {
+  background-color: #DCC7AA;
+  padding: 5px;
+  width: 300px;
+  height: 350px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+  }
+  .student-top {
+    width: 300px;
+    height: 175px;
+    margin: 0;
+    font-size: 40px;
+    border-style: none;
+    border-bottom: thick dotted #000;
+    padding-top: 4px;
+  }
+  .student-top h2 {
+    font-size: 40px;
+    line-height:  50px;
+    margin: 4px;
+    color: #6B7A8F;
+  }
+  .student-bottom {
+width: 300px;
+display: flex;
+width: 50%;
+align-items: center;
 }
 .header {
   display: flex;
