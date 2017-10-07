@@ -87,7 +87,6 @@ color: #6B7A8F;
 }
 .student-box {
  padding: 10px;
- margin-top: 20px;
 list-style: none;
 display: flex;
 flex-wrap: wrap;
@@ -122,14 +121,14 @@ border-radius: 25px;
     margin: 4px;
     color: #6B7A8F;
   }
-  .student-top h3 {
+.student-top h3 {
     font-size: 40px;
     line-height:  50px;
     margin: -8px;
     color: black;
   }
 
-  .student-bottom {
+.student-bottom {
 width: 300px;
 display: flex;
 width: 50%;
@@ -174,8 +173,7 @@ padding-right: 175px;
   margin-top: -50px;
 }
 .course-box {
- padding: 10px;
- margin-top: 20px;
+padding: 10px;
 list-style: none;
 display: flex;
 flex-wrap: wrap;
@@ -194,6 +192,7 @@ border-radius: 25px;
   font-weight: bold;
   font-size: 3em;
   text-align: center;
+  display:flex;
   }
 .course-left {
   padding-left: 20px;
@@ -205,8 +204,15 @@ border-radius: 25px;
 .course-left p {
   font-size: 50%;
 }
-
+.course-right {
+  padding: 0 20px 0 20px;
+  display:block;
 }
+.course-right p {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
 .header {
   display: flex;
   justify-content: center;
@@ -217,7 +223,7 @@ h1 {
     font-weight: 300;
     line-height: 46px;
     font-size: 60px;
-    margin: 0 0 23px 0;
+    margin: 0 0 0 0;
     color: #F7882F;
     text-align: center;
     }
