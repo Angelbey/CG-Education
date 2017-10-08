@@ -183,9 +183,9 @@ border-radius: 25px;
 }
 .course {
   background-color: #DCC7AA;
-  padding: 5px;
-  width: 450px;
-  height: 80px;
+  width: auto;
+  height: ;;
+  padding: 4px;
   margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 25px;
@@ -195,10 +195,8 @@ border-radius: 25px;
   display:flex;
   }
 .course-left {
-  padding-left: 20px;
-  margin-top: 1px;
-  width: 40%;
-  display: flex;
+  padding: 5px;
+  margin: 1px;
   border-right: thick dotted #000;
 }
 .course-left p {
@@ -206,11 +204,11 @@ border-radius: 25px;
 }
 .course-right {
   padding: 0 20px 0 20px;
-  display:block;
 }
 .course-right p {
   font-size: 20px;
   margin: 10px 0;
+  display: flex;
 }
 
 .header {
