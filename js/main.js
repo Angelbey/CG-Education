@@ -12,3 +12,9 @@ console.log("Teacher: " + teacher);
 console.log("Department: " + department);
 console.log("Ratings: " + ratings.join(", "));
 console.log("Avg Rating: " + avgRating);
+var student = "Robin Reed";
+var major = "Botany"
+var email = "rreed@cg.edu"
+console.log("Student: " + student);
+console.log("Major: " + major);
+console.log("Email Address: " + email);
