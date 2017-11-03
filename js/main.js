@@ -18,3 +18,10 @@ var email = "rreed@cg.edu"
 console.log("Student: " + student);
 console.log("Major: " + major);
 console.log("Email Address: " + email);
+var studentGpa1 = 3.5;
+var studentGpa2 = 4.0;
+var studentGpa3 = 3.2;
+var avgGpa = (studentGpa1 + studentGpa2 + studentGpa3)/3;
+var gpas = ["3.5", "4.0", "3.2"];
+console.log("Student GPAs: " + gpas.join(","));
+console.log("Avg Student GPA: " + avgGpa);
