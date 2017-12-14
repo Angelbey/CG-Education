@@ -1,9 +1,12 @@
 body {
   background-color: white;
-  color: #eeeeee
+  color: #000000;
   margin: 0;
   padding: 0;
   position: relative;
+}
+.navBar {
+  padding: 0px;
 }
 .section-heading-nav {
   background-color: #6B7A8F;
@@ -46,9 +49,7 @@ border-radius: 25px;
 
 .teacher {
   background-color: #DCC7AA;
-  padding: 5px;
-  width: 350px;
-  height: 280px;
+  height: 235px;
   margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 25px;
@@ -118,7 +119,6 @@ border-radius: 25px;
 .student {
   background-color: #DCC7AA;
   padding: 5px;
-  width: 300px;
   height: 400px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -128,7 +128,6 @@ border-radius: 25px;
   text-align: center;
   }
   .student-top {
-    width: 300px;
     height: 175px;
     margin: 0;
     font-size: 40px;
@@ -163,7 +162,7 @@ padding-top: 40px;
 .student-bottom p {
   font-size: 25px;
   padding-left: 20px;
-  padding-top: 30px;
+  padding-top: 50px;
 }
 .student-bottom2 h2 {
 font-size: 30px;
@@ -305,7 +304,14 @@ section {
   padding: 10px;
 
 }
-
-.btn-primary:hover {
+.btn-primary {
+  background-color: transparent;
   font-size: 25px;
+}
+.btn-primary:hover #pill {
+  background-color:#f7882f;
+  text-decoration: none;
+}
+.btn-primary:hover {
+  background-color: transparent;
 }
