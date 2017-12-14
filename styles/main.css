@@ -3,12 +3,33 @@ body {
   color: #eeeeee
   margin: 0;
   padding: 0;
+  position: relative;
 }
-.section-heading {
+.section-heading-nav {
+  background-color: #6B7A8F;
+  border-radius: 40px;
+}
+.section-heading-courses {
   background-color: #f7882f;
   border-radius: 25px;
 }
-.section-heading h1 {
+.section-heading-students {
+  background-color: #f7882f;
+  border-radius: 25px;
+}
+.section-heading-teachers {
+  background-color: #f7882f;
+  border-radius: 25px;
+}
+.section-heading-courses h1 {
+  color: black;
+  font-size: 45px;
+}
+.section-heading-students h1 {
+  color: black;
+  font-size: 45px;
+}
+.section-heading-teachers h1 {
   color: black;
   font-size: 45px;
 }
@@ -265,10 +286,26 @@ li a {
     text-decoration: none;
     font-family: 'Dense', sans-serif;
 }
-li a:hover {
-    background-color: #6B7A8F;
-}
 
 section {
   margin: 15px;
+}
+
+.nav-pills.navBar {
+  font-size: 27px;
+  background: transparent;
+}
+#pill {
+  background-color: #F7C331;
+  color: black;
+  margin-right: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 7px;
+  padding: 10px;
+
+}
+
+.btn-primary:hover {
+  font-size: 25px;
 }
